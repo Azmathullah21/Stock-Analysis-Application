@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import datetime
-import mplfinance as mpf
 
 # Load pre-trained model or create a new one if it doesn't exist
 @st.cache_resource
